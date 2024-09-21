@@ -21,27 +21,9 @@ This Python project uses Selenium WebDriver to extract comments from a given You
 2. Install the required Python packages using pip:
    ```bash
    pip install selenium
-Download the appropriate version of ChromeDriver for your system:
-ChromeDriver Downloads
-Extract the chromedriver executable and place it in your system's PATH, or specify the path in the script.
-Usage
-Run the script:
+3. Run the script:
+   ```bash
+   python youtube-comments.py
+4. Enter the URL of Video
 
-bash
-python youtube-comments.py
-Enter the YouTube video URL when prompted.
-
-The script will scrape the comments and save them to a file named youtube_comments.txt in the same directory.
-
-Optional: Headless Mode
-To run the script in the background (without opening a Chrome window), uncomment the following line in the code:
-
-python
-# options.add_argument("--headless")
-Notes
-
-Scroll Limitation: The script scrolls down to load more comments until it reaches the bottom of the page. For very long comment sections, it might take longer to load all comments.
-Explicit Wait: The script uses an explicit wait to ensure that the comments section is loaded before scraping begins.
-Troubleshooting
-Chromedriver not found: Ensure the chromedriver is in your system’s PATH or specify the path to it in the script.
-Page Not Loading: Make sure the video URL is valid and that you have a stable internet connection.
+Enjoy! 
