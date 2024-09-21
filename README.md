@@ -26,4 +26,7 @@ This Python project uses Selenium WebDriver to extract comments from a given You
    python youtube-comments.py
 4. Enter the URL of Video
 
-Enjoy! 
+## Optional: Headless Mode
+To run the script in the background (without opening a Chrome window), uncomment the following line in the code:
+   ```bash
+# options.add_argument("--headless")
