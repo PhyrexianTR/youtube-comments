@@ -21,5 +21,6 @@ This Python project uses Selenium WebDriver to extract comments from a given You
 2. Install the required Python packages using pip:
    ```bash
    pip install selenium
+   ```bash
 3. python youtube-comments.py
-4. Enter the URL of Youtube Video
+4. Enter the Youtube Video URL
